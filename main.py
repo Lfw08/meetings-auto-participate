@@ -24,7 +24,7 @@ def enter_meeting(id, ps_word, way):
     # 加入会议
     if way == 'Tencent':
         # 这里需要替换自己电脑中腾讯会议应用程序的位置
-        os.startfile(r"G:\SmallTools\腾讯会议\WeMeet\wemeetapp.exe")
+        os.startfile(r"C:\Users\Public\Desktop\腾讯会议.lnk")
         time.sleep(5)
         click("enter_meeting.png")
         enter_wd(id)
